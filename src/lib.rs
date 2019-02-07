@@ -1,6 +1,7 @@
 #![no_std]
 #![feature(alloc)]
 #![feature(maybe_uninit)]
+#![deprecated]
 extern crate alloc;
 
 pub use bindings::*;
